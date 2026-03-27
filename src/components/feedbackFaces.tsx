@@ -1,0 +1,44 @@
+import React, { useState } from "react";
+import { event } from "@site/src/utils/gtags.client";
+import { GA_EVENTS, GA_CATEGORIES, GA_ACTIONS } from '@site/src/constants/ga-events';
+
+export default function FeedbackFaces() {
+    const [clickedFace, setClickedFace] = useState<string | null>(null);
+
+    const faces = [
+        { label: "sad", emoji: "😞" },
+        { label: "neutral", emoji: "😐" },
+        { label: "happy", emoji: "😊" },
+    ];
+
+    const handleFeedbackClick = (feedbackType: string) => {
+        setClickedFace(feedbackType);
+
+        const label = `${feedbackType}`;
+
+        event({
+            action: GA_EVENTS.FEEDBACK_CLICK,
+            category: GA_CATEGORIES.FEEDBACK,
+            label: label,
+            location: true,
+        });
+
+        setTimeout(() => setClickedFace(null), 300);
+    };
+
+    return (
+        <div className="flex justify-left items-center gap-1">
+            {faces.map((face) => (
+                <button
+                    key={face.label}
+                    onClick={() => handleFeedbackClick(face.label)}
+                    className={`text-4xl cursor-pointer p-2 bg-transparent border-none transition-transform duration-200 focus:outline-none ${clickedFace === face.label ? "scale-110 opacity-70" : "scale-100 opacity-100"
+                        }`}
+                    aria-label={face.label}
+                >
+                    {face.emoji}
+                </button>
+            ))}
+        </div>
+    );
+}

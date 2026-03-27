@@ -1,0 +1,30 @@
+{
+  "logo.alt": {
+    "message": "Flow Developer Portal Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.DeFi": {
+    "message": "DeFi",
+    "description": "Navbar item with label DeFi"
+  },
+  "item.label.Tutorials": {
+    "message": "Tutorials",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.Build": {
+    "message": "Build",
+    "description": "Navbar item with label Build"
+  },
+  "item.label.Protocol": {
+    "message": "Protocol",
+    "description": "Navbar item with label Protocol"
+  },
+  "item.label.Ecosystem": {
+    "message": "Ecosystem",
+    "description": "Navbar item with label Ecosystem"
+  },
+  "item.label.Connect": {
+    "message": "Connect",
+    "description": "Navbar item with label Connect"
+  }
+}

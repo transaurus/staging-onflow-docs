@@ -1,0 +1,159 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+  --ifm-font-family-monospace: 'IBM Plex Mono', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-navbar-item-padding-horizontal: 0.5rem;
+ 
+  /* xl breakpoint */
+  @media (min-width: 1280px) {
+    --ifm-navbar-item-padding-horizontal: 0.75rem;
+  } 
+
+  --image-navbar-github: url('/images/social/github.svg');
+  --image-navbar-discord: url('/images/social/discord.svg');
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --image-navbar-github: url('/images/social/github-light.svg');
+  --image-navbar-discord: url('/images/social/discord-light.svg');
+}
+
+/* docusaurus desktop breakpoint https://docusaurus.io/docs/styling-layout#mobile-view */
+@media (min-width: 997px) { 
+  .desktop\:p-1 {
+    padding: 0.25rem;
+  }
+  .desktop\:hidden {
+    display: none;
+  }
+}
+
+/* lg breakpoint */
+@media (min-width: 1024px) { 
+  .lg\:block {
+      display: block;
+  }
+}
+
+/* xl breakpoint */
+@media (min-width: 1280px) {
+  .xl\:block {
+      display: block;
+  }
+}
+#navbar-github {
+  content: var(--image-navbar-github);
+}
+
+#navbar-discord {
+  content: var(--image-navbar-discord);
+}
+
+[data-theme='light'] img[src$='#gh-dark-mode-only'],
+[data-theme='dark'] img[src$='#gh-light-mode-only'] {
+  display: none;
+}
+
+.cards > div {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "header header" "description description";
+  margin-bottom: 2rem;
+}
+
+.cards > div > h2 {
+  grid-area: header;
+}
+
+.cards > div > p {
+  grid-area: description;
+}
+
+.cards > div > div {
+  padding: 1rem;
+  background-color: var(--ifm-card-background-color);
+  border-radius: var(--ifm-card-border-radius);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all var(--ifm-transition-fast) ease;
+  transition-property: border, box-shadow;
+}
+
+.cards > div > div:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 3px 6px 0 #0003;
+}
+
+.markdown h1 {
+  --ifm-h1-font-size: 3rem;
+  margin-bottom: calc(var(--ifm-h1-vertical-rhythm-bottom)*var(--ifm-leading));
+}
+
+.portrait-screenshot-wrapper img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Only hide in in nav (not main menu on mobile) */
+@media (max-width: 960px) {
+  .navbar__items--right .hide-connect-on-mobile {
+    display: none !important;
+  }
+}
+
+/* 1) Reset all sidebar items to normal weight */
+.theme-doc-sidebar-menu .menu__link {
+  font-weight: 400;
+}
+
+/* Optional: keep the current page a bit heavier */
+.theme-doc-sidebar-menu .menu__link--active {
+  font-weight: 500;
+}
+
+/* 2) Bold ONLY top-level docs (non-folders) */
+.theme-doc-sidebar-item-link-level-1>.menu__link {
+  font-weight: 500;
+}
+
+/* 3) Bold ONLY top-level folder labels (not inner folders) */
+.theme-doc-sidebar-item-category-level-1>.menu__list-item-collapsible> :is(a.menu__link--sublist, button.menu__link--sublist) {
+  font-weight: 500;
+}
+
+:root {
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, Segoe UI,
+    Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-synthesis-weight: none;
+  /* prevent fake bold */
+}

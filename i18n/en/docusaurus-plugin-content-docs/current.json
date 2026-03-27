@@ -1,0 +1,266 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.protocol.category.Flow Networks": {
+    "message": "Flow Networks",
+    "description": "The label for category Flow Networks in sidebar protocol"
+  },
+  "sidebar.protocol.category.Flow Network Architecture": {
+    "message": "Flow Network Architecture",
+    "description": "The label for category Flow Network Architecture in sidebar protocol"
+  },
+  "sidebar.protocol.category.Staking and Epochs": {
+    "message": "Staking and Epochs",
+    "description": "The label for category Staking and Epochs in sidebar protocol"
+  },
+  "sidebar.protocol.category.Node Ops": {
+    "message": "Node Ops",
+    "description": "The label for category Node Ops in sidebar protocol"
+  },
+  "sidebar.protocol.category.Access Nodes": {
+    "message": "Access Nodes",
+    "description": "The label for category Access Nodes in sidebar protocol"
+  },
+  "sidebar.protocol.category.EVM Gateway Setup": {
+    "message": "EVM Gateway Setup",
+    "description": "The label for category EVM Gateway Setup in sidebar protocol"
+  },
+  "sidebar.protocol.category.Light Nodes": {
+    "message": "Light Nodes",
+    "description": "The label for category Light Nodes in sidebar protocol"
+  },
+  "sidebar.protocol.category.Participating in the Network": {
+    "message": "Participating in the Network",
+    "description": "The label for category Participating in the Network in sidebar protocol"
+  },
+  "sidebar.protocol.category.Node Operations Guide": {
+    "message": "Node Operations Guide",
+    "description": "The label for category Node Operations Guide in sidebar protocol"
+  },
+  "sidebar.protocol.category.Accessing Data": {
+    "message": "Accessing Data",
+    "description": "The label for category Accessing Data in sidebar protocol"
+  },
+  "sidebar.protocol.category.WebSockets Stream API": {
+    "message": "WebSockets Stream API",
+    "description": "The label for category WebSockets Stream API in sidebar protocol"
+  },
+  "sidebar.protocol.category.Supported topics": {
+    "message": "Supported topics",
+    "description": "The label for category Supported topics in sidebar protocol"
+  },
+  "sidebar.protocol.category.Flow Port": {
+    "message": "Flow Port",
+    "description": "The label for category Flow Port in sidebar protocol"
+  },
+  "sidebar.build.category.Cadence": {
+    "message": "Cadence",
+    "description": "The label for category Cadence in sidebar build"
+  },
+  "sidebar.build.category.Basics": {
+    "message": "Basics",
+    "description": "The label for category Basics in sidebar build"
+  },
+  "sidebar.build.category.Writing and Deploying Smart Contracts": {
+    "message": "Writing and Deploying Smart Contracts",
+    "description": "The label for category Writing and Deploying Smart Contracts in sidebar build"
+  },
+  "sidebar.build.category.Best Practices": {
+    "message": "Best Practices",
+    "description": "The label for category Best Practices in sidebar build"
+  },
+  "sidebar.build.category.Advanced Concepts": {
+    "message": "Advanced Concepts",
+    "description": "The label for category Advanced Concepts in sidebar build"
+  },
+  "sidebar.build.category.Core Smart Contracts": {
+    "message": "Core Smart Contracts",
+    "description": "The label for category Core Smart Contracts in sidebar build"
+  },
+  "sidebar.build.category.Solidity (EVM)": {
+    "message": "Solidity (EVM)",
+    "description": "The label for category Solidity (EVM) in sidebar build"
+  },
+  "sidebar.build.category.Tools & SDKs": {
+    "message": "Tools & SDKs",
+    "description": "The label for category Tools & SDKs in sidebar build"
+  },
+  "sidebar.build.category.Flow React Native SDK": {
+    "message": "Flow React Native SDK",
+    "description": "The label for category Flow React Native SDK in sidebar build"
+  },
+  "sidebar.build.category.Flow React SDK": {
+    "message": "Flow React SDK",
+    "description": "The label for category Flow React SDK in sidebar build"
+  },
+  "sidebar.build.category.Flow CLI": {
+    "message": "Flow CLI",
+    "description": "The label for category Flow CLI in sidebar build"
+  },
+  "sidebar.build.category.Accounts": {
+    "message": "Accounts",
+    "description": "The label for category Accounts in sidebar build"
+  },
+  "sidebar.build.category.Keys": {
+    "message": "Keys",
+    "description": "The label for category Keys in sidebar build"
+  },
+  "sidebar.build.category.Deploy Project": {
+    "message": "Deploy Project",
+    "description": "The label for category Deploy Project in sidebar build"
+  },
+  "sidebar.build.category.Scripts": {
+    "message": "Scripts",
+    "description": "The label for category Scripts in sidebar build"
+  },
+  "sidebar.build.category.Transactions": {
+    "message": "Transactions",
+    "description": "The label for category Transactions in sidebar build"
+  },
+  "sidebar.build.category.Flow.json": {
+    "message": "Flow.json",
+    "description": "The label for category Flow.json in sidebar build"
+  },
+  "sidebar.build.category.Flow Entities": {
+    "message": "Flow Entities",
+    "description": "The label for category Flow Entities in sidebar build"
+  },
+  "sidebar.build.category.Utils": {
+    "message": "Utils",
+    "description": "The label for category Utils in sidebar build"
+  },
+  "sidebar.build.category.Client Tools": {
+    "message": "Client Tools",
+    "description": "The label for category Client Tools in sidebar build"
+  },
+  "sidebar.build.category.Flow Client Library (FCL)": {
+    "message": "Flow Client Library (FCL)",
+    "description": "The label for category Flow Client Library (FCL) in sidebar build"
+  },
+  "sidebar.build.category.Packages Docs": {
+    "message": "Packages Docs",
+    "description": "The label for category Packages Docs in sidebar build"
+  },
+  "sidebar.build.category.@onflow/fcl": {
+    "message": "@onflow/fcl",
+    "description": "The label for category @onflow/fcl in sidebar build"
+  },
+  "sidebar.build.category.@onflow/sdk": {
+    "message": "@onflow/sdk",
+    "description": "The label for category @onflow/sdk in sidebar build"
+  },
+  "sidebar.build.category.Cross VM Packages": {
+    "message": "Cross VM Packages",
+    "description": "The label for category Cross VM Packages in sidebar build"
+  },
+  "sidebar.build.category.Flow Go SDK": {
+    "message": "Flow Go SDK",
+    "description": "The label for category Flow Go SDK in sidebar build"
+  },
+  "sidebar.build.category.Wallet Provider Spec": {
+    "message": "Wallet Provider Spec",
+    "description": "The label for category Wallet Provider Spec in sidebar build"
+  },
+  "sidebar.ecosystem.category.Developer Support Hub": {
+    "message": "Developer Support Hub",
+    "description": "The label for category Developer Support Hub in sidebar ecosystem"
+  },
+  "sidebar.tutorials.category.Forte Network Upgrade": {
+    "message": "Forte Network Upgrade",
+    "description": "The label for category Forte Network Upgrade in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Flow Actions": {
+    "message": "Flow Actions",
+    "description": "The label for category Flow Actions in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Scheduled Transactions": {
+    "message": "Scheduled Transactions",
+    "description": "The label for category Scheduled Transactions in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Use AI To Build On Flow": {
+    "message": "Use AI To Build On Flow",
+    "description": "The label for category Use AI To Build On Flow in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Large Language Models (LLMs)": {
+    "message": "Large Language Models (LLMs)",
+    "description": "The label for category Large Language Models (LLMs) in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Use Cursor AI": {
+    "message": "Use Cursor AI",
+    "description": "The label for category Use Cursor AI in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.AI Agents": {
+    "message": "AI Agents",
+    "description": "The label for category AI Agents in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Eliza on Flow": {
+    "message": "Eliza on Flow",
+    "description": "The label for category Eliza on Flow in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Flow MCP": {
+    "message": "Flow MCP",
+    "description": "The label for category Flow MCP in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Cadence Tutorials": {
+    "message": "Cadence Tutorials",
+    "description": "The label for category Cadence Tutorials in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Getting Started with Cadence": {
+    "message": "Getting Started with Cadence",
+    "description": "The label for category Getting Started with Cadence in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Cadence Advantages": {
+    "message": "Cadence Advantages",
+    "description": "The label for category Cadence Advantages in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Account Linking": {
+    "message": "Account Linking",
+    "description": "The label for category Account Linking in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Mobile Development on Flow": {
+    "message": "Mobile Development on Flow",
+    "description": "The label for category Mobile Development on Flow in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Flow EVM Guides": {
+    "message": "Flow EVM Guides",
+    "description": "The label for category Flow EVM Guides in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Flow EVM Setup": {
+    "message": "Flow EVM Setup",
+    "description": "The label for category Flow EVM Setup in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Flow EVM Frameworks": {
+    "message": "Flow EVM Frameworks",
+    "description": "The label for category Flow EVM Frameworks in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Flow EVM Development Tools": {
+    "message": "Flow EVM Development Tools",
+    "description": "The label for category Flow EVM Development Tools in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Cross-VM Apps": {
+    "message": "Cross-VM Apps",
+    "description": "The label for category Cross-VM Apps in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Native VRF (Built-in Randomness) Tutorials": {
+    "message": "Native VRF (Built-in Randomness) Tutorials",
+    "description": "The label for category Native VRF (Built-in Randomness) Tutorials in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Token Development and Registration": {
+    "message": "Token Development and Registration",
+    "description": "The label for category Token Development and Registration in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Gasless Transactions": {
+    "message": "Gasless Transactions",
+    "description": "The label for category Gasless Transactions in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Third-Party Integrations": {
+    "message": "Third-Party Integrations",
+    "description": "The label for category Third-Party Integrations in sidebar tutorials"
+  },
+  "sidebar.tutorials.category.Crossmint Integration Guide": {
+    "message": "Crossmint Integration Guide",
+    "description": "The label for category Crossmint Integration Guide in sidebar tutorials"
+  }
+}
