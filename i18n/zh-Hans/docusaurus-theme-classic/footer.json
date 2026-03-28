@@ -1,0 +1,118 @@
+{
+  "link.title.Flow": {
+    "message": "Flow",
+    "description": "The title of the footer links column with title=Flow in the footer"
+  },
+  "link.title.Cadence": {
+    "message": "Cadence",
+    "description": "The title of the footer links column with title=Cadence in the footer"
+  },
+  "link.title.Solidity (EVM)": {
+    "message": "Solidity (EVM)",
+    "description": "The title of the footer links column with title=Solidity (EVM) in the footer"
+  },
+  "link.title.Community & Support": {
+    "message": "Community & Support",
+    "description": "The title of the footer links column with title=Community & Support in the footer"
+  },
+  "link.title.Network & Resources": {
+    "message": "Network & Resources",
+    "description": "The title of the footer links column with title=Network & Resources in the footer"
+  },
+  "link.item.label.Build with AI": {
+    "message": "Build with AI",
+    "description": "The label of footer link with label=Build with AI linking to /blockchain-development-tutorials/use-AI-to-build-on-flow"
+  },
+  "link.item.label.Why Flow": {
+    "message": "Why Flow",
+    "description": "The label of footer link with label=Why Flow linking to /blockchain-development-tutorials/flow-101"
+  },
+  "link.item.label.Tools": {
+    "message": "Tools",
+    "description": "The label of footer link with label=Tools linking to /build/tools"
+  },
+  "link.item.label.Faucet": {
+    "message": "Faucet",
+    "description": "The label of footer link with label=Faucet linking to /ecosystem/faucets"
+  },
+  "link.item.label.Builder Toolkit": {
+    "message": "Builder Toolkit",
+    "description": "The label of footer link with label=Builder Toolkit linking to /ecosystem/developer-support-hub"
+  },
+  "link.item.label.Quickstart": {
+    "message": "Quickstart",
+    "description": "The label of footer link with label=Quickstart linking to /build/evm/quickstart"
+  },
+  "link.item.label.Build with Forte": {
+    "message": "Build with Forte",
+    "description": "The label of footer link with label=Build with Forte linking to /blockchain-development-tutorials/forte"
+  },
+  "link.item.label.Cadence Advantages": {
+    "message": "Cadence Advantages",
+    "description": "The label of footer link with label=Cadence Advantages linking to /blockchain-development-tutorials/cadence/cadence-advantages"
+  },
+  "link.item.label.React SDK": {
+    "message": "React SDK",
+    "description": "The label of footer link with label=React SDK linking to /build/tools/react-sdk"
+  },
+  "link.item.label.Language Reference": {
+    "message": "Language Reference",
+    "description": "The label of footer link with label=Language Reference linking to https://cadence-lang.org/"
+  },
+  "link.item.label.Native VRF": {
+    "message": "Native VRF",
+    "description": "The label of footer link with label=Native VRF linking to /blockchain-development-tutorials/native-vrf"
+  },
+  "link.item.label.Batched Transactions": {
+    "message": "Batched Transactions",
+    "description": "The label of footer link with label=Batched Transactions linking to /blockchain-development-tutorials/cross-vm-apps"
+  },
+  "link.item.label.Network Information": {
+    "message": "Network Information",
+    "description": "The label of footer link with label=Network Information linking to /build/evm/networks"
+  },
+  "link.item.label.Dev Office Hours": {
+    "message": "Dev Office Hours",
+    "description": "The label of footer link with label=Dev Office Hours linking to https://calendar.google.com/calendar/u/0/embed?src=c_47978f5cd9da636cadc6b8473102b5092c1a865dd010558393ecb7f9fd0c9ad0@group.calendar.google.com"
+  },
+  "link.item.label.Hackathons and Events": {
+    "message": "Hackathons and Events",
+    "description": "The label of footer link with label=Hackathons and Events linking to /ecosystem/hackathons-and-events"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/flow"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/onflow"
+  },
+  "link.item.label.Careers": {
+    "message": "Careers",
+    "description": "The label of footer link with label=Careers linking to https://flow.com/careers"
+  },
+  "link.item.label.Network Status": {
+    "message": "Network Status",
+    "description": "The label of footer link with label=Network Status linking to https://status.flow.com/"
+  },
+  "link.item.label.Block Explorer": {
+    "message": "Block Explorer",
+    "description": "The label of footer link with label=Block Explorer linking to https://flowscan.io/"
+  },
+  "link.item.label.Flow Port": {
+    "message": "Flow Port",
+    "description": "The label of footer link with label=Flow Port linking to https://port.flow.com/"
+  },
+  "link.item.label.Flow Website": {
+    "message": "Flow Website",
+    "description": "The label of footer link with label=Flow Website linking to https://flow.com/"
+  },
+  "link.item.label.Flow Blog": {
+    "message": "Flow Blog",
+    "description": "The label of footer link with label=Flow Blog linking to https://flow.com/blog"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Flow Foundation. All Rights Reserved.",
+    "description": "The footer copyright"
+  }
+}

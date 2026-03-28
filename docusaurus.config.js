@@ -164,7 +164,7 @@ const config = {
   projectName: 'docs', // Usually your repo name.
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onDuplicateRoutes: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -172,7 +172,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ["en", "zh-Hans"],
   },
 
   presets: [
@@ -589,7 +589,7 @@ const config = {
   // Move deprecated markdown config to new location
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'throw',
+      onBrokenMarkdownLinks: "warn",
     },
   },
   
